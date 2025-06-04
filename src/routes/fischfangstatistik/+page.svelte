@@ -8,9 +8,6 @@
   console.log('[Main Page /fischfangstatistik/+page.svelte - Lake List] Component instance created. Data:', data);
   console.log('[Main Page /fischfangstatistik/+page.svelte - Lake List] Unique lakes received:', data?.uniqueLakes);
 
-  // Dropdowns and their state variables are removed from this page,
-  // as the primary interaction is clicking a lake link.
-
   // Helper für Umstrukturierung der Seenamen 
   const seeNamen = {
     "bodensee": "Bodensee",
